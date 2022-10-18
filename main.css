@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0rem;
+}
+:root{
+    --primary-color:#05a6b8;
+}
+body{
+    background-color: var(--primary-color);
+}
+
+.container-center{
+    text-align: center;
+    padding: 2rem;
+}
+h1{
+    font-weight: bold;
+    font-size:xx-large;
+    padding: 1rem;
+    margin: 2rem;
+}
+label{
+    display: block;
+    margin: 0.5rem;
+    font-size: x-large;
+}
+
+input{
+border-radius: 0.5rem;
+font-size: large;
+padding: 0.25rem;
+}
+input #Date-of-Birth {
+    max-width: 20%;
+}
+#btn-Check{
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background-color: var(--primary-color);
+}
+.footer{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer-header{
+    font-size: large;
+}
+.footer .link{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer .footer-header{
+    font-weight: bold;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    margin:1rem ;
+
+}
+.item-inline{
+    display: inline;
+    padding: 1rem;
+    margin:0.5rem;
+    list-style: none;
+}
+.bullet-remove{
+    list-style: none;
+}
+#output{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: large;
+
+}
+.Privacy {
+    border: 1px solid;
+    display: none;
+    max-width: 300px;
+    padding: 1rem;
+  }
+.Privacy .Privacy_btn {
+    background-color:var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}  
+#lucky-Number{
+    max-width: 135px;
+}
+ 
+
+
