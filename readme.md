@@ -1,4 +1,4 @@
-# Mark-11: Is your birthday lucky?
+# Is your birthday lucky?
 ## About
 - User has to select birthday and a lucky number.
 - The application finds out if sum of digits of birthday is divisible by the lucky number. If divisble, it's a lucky number and vice versa.
